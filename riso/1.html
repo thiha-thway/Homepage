@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Homepage</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: whitesmoke;
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                background-color: rgb(217, 135, 235);
+                color: black;
+                padding: 1.5rem 0;
+                text-align: center;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+            h1 {
+                margin: 0;
+                font-size: 2rem;
+            }
+            h2 {
+                margin: 20px 0;
+                font-size: 1.8rem;
+                color: black;
+            }
+            img {
+                width: 180px;
+                height: auto;
+                border-radius: 10px;
+                margin: 15px auto;
+                display: block;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+            p {
+                font-size: 1rem;
+                line-height: 1.6;
+                color: black;
+                max-width: 800px;
+                margin: 15px auto;
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 20px auto;
+                max-width: 600px;
+                background-color: white;
+                border: 1px solid white;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+            ul li {
+                padding: 15px;
+                border-bottom: 1px solid white;
+                font-size: 1rem;
+                color: black;
+            }
+            ul li:last-child {
+                border-bottom: none;
+            }
+            ul li b {
+                color: black;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+                padding-bottom: 80px; 
+            }
+            footer {
+                background-color: rgb(217, 135, 235);
+                color: white;
+                text-align: center;
+                padding: 20px;
+                position: fixed;
+                width: 100%;
+                bottom: 0;
+                z-index: 1000;
+                box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to My Homepage</h1>
+        </header>
+
+        <main class="container">
+            <section>
+                <h2>About Me</h2>
+                <p>I am a Computer Science Student who is still learning</p>
+                <img src="test.jpg" alt="Profile Picture">
+            </section>
+
+            <section class="Myself">
+                <h2>My Profile</h2>
+                <ul>
+                    <li><b>Name:</b> Thiha Thway</li>
+                    <li><b>Age:</b> 24</li>
+                    <li><b>University:</b> Rangsit University</li>
+                    <li><b>Address:</b> Rangsit</li>
+                </ul>
+            </section>
+
+            <section class="Hobbies">
+                <h2>My Hobbies</h2>
+                <ul>
+                    <li>Reading</li>
+                    <li>Playing football</li>
+                    <li>Playing Games</li>
+                    <li>Listening to Music</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>Thank you for visiting my homepage</p>
+        </footer>
+    </body>
+</html>
